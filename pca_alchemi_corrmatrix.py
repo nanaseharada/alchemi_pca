@@ -1,7 +1,6 @@
 #Nov 1st, 2023 written by Nanase Harada
 #Tested with Python version 3.9.12
 import numpy as np
-import pca_lib as plib
 import matplotlib.pyplot as plt
 from matplotlib import pyplot as plt, colors
 #from sklearn.decomposition import PCA
