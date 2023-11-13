@@ -81,7 +81,7 @@ def hover(event):
 #print(np.shape(l1))
 
 fig.canvas.mpl_connect("motion_notify_event", hover)
-plt.colorbar(sc,location='bottom', pad=0.1,fraction = 0.04)
+plt.colorbar(sc,location='bottom', pad=0.1,fraction = 0.04,label='Correlation coefficients')
 plt.show()
 
 
